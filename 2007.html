@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_05acd470703c4efbae03d38c985b4af6 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_05acd470703c4efbae03d38c985b4af6" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_05acd470703c4efbae03d38c985b4af6 = L.map(
+        'map_05acd470703c4efbae03d38c985b4af6', {
+        center: [43.653963, -79.387207],
+        zoom: 4,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_3c30a33d4bd240c18d182317826476c6 = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_05acd470703c4efbae03d38c985b4af6);
+    
+            var feature_group_e26ebb56f4e443b89c95690267ef9d0f = L.featureGroup(
+                ).addTo(map_05acd470703c4efbae03d38c985b4af6);
+        
+    
+        var marker_0206692e566f4d49af0d15786dc51a47 = L.marker(
+            [43.653963, -79.387207],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_ca214a96a79e410f89485fb07191a6dd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0206692e566f4d49af0d15786dc51a47.setIcon(icon_ca214a96a79e410f89485fb07191a6dd);
+            
+    
+            var popup_c8ca3e59abb14fc5b363acc4ab848e13 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c8f96b7ecc8f4ac383ef935b510d91fc = $(`<div id="html_c8f96b7ecc8f4ac383ef935b510d91fc" style="width: 100.0%; height: 100.0%;">Film: "'Da Kink in My Hair "(inf: Chicken (#1.3))</div>`)[0];
+                popup_c8ca3e59abb14fc5b363acc4ab848e13.setContent(html_c8f96b7ecc8f4ac383ef935b510d91fc);
+            
+
+            marker_0206692e566f4d49af0d15786dc51a47.bindPopup(popup_c8ca3e59abb14fc5b363acc4ab848e13)
+            ;
+
+            
+        
+    
+        var marker_f482ab203ff0436c85a7a9ecce77cec2 = L.marker(
+            [43.653963, -79.387207],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_6a65e683e6c64648a0720f9d6c7a53c5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f482ab203ff0436c85a7a9ecce77cec2.setIcon(icon_6a65e683e6c64648a0720f9d6c7a53c5);
+            
+    
+            var popup_27e01b9c486149c88962ff56af2b589d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4155e7ac29794c3b97e1b1694d9b4250 = $(`<div id="html_4155e7ac29794c3b97e1b1694d9b4250" style="width: 100.0%; height: 100.0%;">Film: "'Da Kink in My Hair "(inf: Coming Out of the Closet (#2.11))</div>`)[0];
+                popup_27e01b9c486149c88962ff56af2b589d.setContent(html_4155e7ac29794c3b97e1b1694d9b4250);
+            
+
+            marker_f482ab203ff0436c85a7a9ecce77cec2.bindPopup(popup_27e01b9c486149c88962ff56af2b589d)
+            ;
+
+            
+        
+    
+        var marker_9ecb660aae554d26ad3cc4993287eff9 = L.marker(
+            [43.653963, -79.387207],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_8448ac1abbfc45518c277951f16d529a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9ecb660aae554d26ad3cc4993287eff9.setIcon(icon_8448ac1abbfc45518c277951f16d529a);
+            
+    
+            var popup_7ca20bb94e294d03a1d613f37842eebf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d1ece0422a754a62aeb271a5244941a5 = $(`<div id="html_d1ece0422a754a62aeb271a5244941a5" style="width: 100.0%; height: 100.0%;">Film: "'Da Kink in My Hair "(inf: Computer Love (#2.9))</div>`)[0];
+                popup_7ca20bb94e294d03a1d613f37842eebf.setContent(html_d1ece0422a754a62aeb271a5244941a5);
+            
+
+            marker_9ecb660aae554d26ad3cc4993287eff9.bindPopup(popup_7ca20bb94e294d03a1d613f37842eebf)
+            ;
+
+            
+        
+    
+        var marker_694c700a475a43e689d6310b7d59b77c = L.marker(
+            [43.653963, -79.387207],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_f961d75c2bb14fc494060835e75d30b9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_694c700a475a43e689d6310b7d59b77c.setIcon(icon_f961d75c2bb14fc494060835e75d30b9);
+            
+    
+            var popup_82adf2911810497fb87e76860d10f8b3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_99bad7f635d64b91a7fd1bee4b5363a9 = $(`<div id="html_99bad7f635d64b91a7fd1bee4b5363a9" style="width: 100.0%; height: 100.0%;">Film: "'Da Kink in My Hair "(inf: Di Heart of Di Matter (#1.13))</div>`)[0];
+                popup_82adf2911810497fb87e76860d10f8b3.setContent(html_99bad7f635d64b91a7fd1bee4b5363a9);
+            
+
+            marker_694c700a475a43e689d6310b7d59b77c.bindPopup(popup_82adf2911810497fb87e76860d10f8b3)
+            ;
+
+            
+        
+    
+        var marker_e39a58618dee48cd9de26431c2925720 = L.marker(
+            [43.653963, -79.387207],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_77e0b73cfeee4cf9a94bcda92d274696 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e39a58618dee48cd9de26431c2925720.setIcon(icon_77e0b73cfeee4cf9a94bcda92d274696);
+            
+    
+            var popup_5532bebaa99142c5833268a838a8f8e3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_25830557c8aa4fd4b8b7d24094dcbad2 = $(`<div id="html_25830557c8aa4fd4b8b7d24094dcbad2" style="width: 100.0%; height: 100.0%;">Film: "'Da Kink in My Hair "(inf: Empress of Eglinton (#2.8))</div>`)[0];
+                popup_5532bebaa99142c5833268a838a8f8e3.setContent(html_25830557c8aa4fd4b8b7d24094dcbad2);
+            
+
+            marker_e39a58618dee48cd9de26431c2925720.bindPopup(popup_5532bebaa99142c5833268a838a8f8e3)
+            ;
+
+            
+        
+    
+        var marker_f13e76d384c74b1b84c931e7c68cab37 = L.marker(
+            [43.653963, -79.387207],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_cde5d66eefbc483f8e3d81c1d9887108 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f13e76d384c74b1b84c931e7c68cab37.setIcon(icon_cde5d66eefbc483f8e3d81c1d9887108);
+            
+    
+            var popup_1d00e00d4c114ee8925b1cc64385f757 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ffa784b862c646749e5a13da82e278aa = $(`<div id="html_ffa784b862c646749e5a13da82e278aa" style="width: 100.0%; height: 100.0%;">Film: "'Da Kink in My Hair "(inf: Empty Bag Can't Stand Up (#1.4))</div>`)[0];
+                popup_1d00e00d4c114ee8925b1cc64385f757.setContent(html_ffa784b862c646749e5a13da82e278aa);
+            
+
+            marker_f13e76d384c74b1b84c931e7c68cab37.bindPopup(popup_1d00e00d4c114ee8925b1cc64385f757)
+            ;
+
+            
+        
+    
+        var marker_0297df256a074c1ba81d2ab9f6f65edf = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_539296a0420e49dc897ea5f90199c809 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0297df256a074c1ba81d2ab9f6f65edf.setIcon(icon_539296a0420e49dc897ea5f90199c809);
+            
+    
+            var popup_419d59d6048d4d5b8e789636bcd682ff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_49a6b42a4c3f43b9965b03c664563c87 = $(`<div id="html_49a6b42a4c3f43b9965b03c664563c87" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_419d59d6048d4d5b8e789636bcd682ff.setContent(html_49a6b42a4c3f43b9965b03c664563c87);
+            
+
+            marker_0297df256a074c1ba81d2ab9f6f65edf.bindPopup(popup_419d59d6048d4d5b8e789636bcd682ff)
+            ;
+
+            
+        
+    
+        var marker_ad723bbefae24bf797ca9086b900b142 = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_7a3fbe30745e4b70a1a53acf8ce7612b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ad723bbefae24bf797ca9086b900b142.setIcon(icon_7a3fbe30745e4b70a1a53acf8ce7612b);
+            
+    
+            var popup_7090d549066f43b5b0f79fbd461cf9a5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_16dd9bd5ec8441c1b282d97c6092a468 = $(`<div id="html_16dd9bd5ec8441c1b282d97c6092a468" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_7090d549066f43b5b0f79fbd461cf9a5.setContent(html_16dd9bd5ec8441c1b282d97c6092a468);
+            
+
+            marker_ad723bbefae24bf797ca9086b900b142.bindPopup(popup_7090d549066f43b5b0f79fbd461cf9a5)
+            ;
+
+            
+        
+    
+        var marker_af6dce3d0b004962b324e98bfe008237 = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_d5cafc6e9e5442499c6c8ff7cae80fab = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af6dce3d0b004962b324e98bfe008237.setIcon(icon_d5cafc6e9e5442499c6c8ff7cae80fab);
+            
+    
+            var popup_84cb01b8f8184b54881e0de41ca09ce5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5f9d343cf3884f7da909df6c2514f0ed = $(`<div id="html_5f9d343cf3884f7da909df6c2514f0ed" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_84cb01b8f8184b54881e0de41ca09ce5.setContent(html_5f9d343cf3884f7da909df6c2514f0ed);
+            
+
+            marker_af6dce3d0b004962b324e98bfe008237.bindPopup(popup_84cb01b8f8184b54881e0de41ca09ce5)
+            ;
+
+            
+        
+    
+        var marker_d97a8c4ec63f48078e0df0e76060c400 = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_b6f8467672a24043af2e914fac869216 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d97a8c4ec63f48078e0df0e76060c400.setIcon(icon_b6f8467672a24043af2e914fac869216);
+            
+    
+            var popup_da7dd8999a1c43f188fce20be122801d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fa8a5907fe1d4a839cc46c3005a1fa9d = $(`<div id="html_fa8a5907fe1d4a839cc46c3005a1fa9d" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_da7dd8999a1c43f188fce20be122801d.setContent(html_fa8a5907fe1d4a839cc46c3005a1fa9d);
+            
+
+            marker_d97a8c4ec63f48078e0df0e76060c400.bindPopup(popup_da7dd8999a1c43f188fce20be122801d)
+            ;
+
+            
+        
+    
+        var marker_649ec78501cc4c7e84cd63e4eb9a6ccb = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_61e5b29efda24bfa80763aa424f90d94 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_649ec78501cc4c7e84cd63e4eb9a6ccb.setIcon(icon_61e5b29efda24bfa80763aa424f90d94);
+            
+    
+            var popup_931e863044ce4ab5b2478991f8634b42 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dad47ca2283945ffafba732d65188397 = $(`<div id="html_dad47ca2283945ffafba732d65188397" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_931e863044ce4ab5b2478991f8634b42.setContent(html_dad47ca2283945ffafba732d65188397);
+            
+
+            marker_649ec78501cc4c7e84cd63e4eb9a6ccb.bindPopup(popup_931e863044ce4ab5b2478991f8634b42)
+            ;
+
+            
+        
+    
+        var marker_de0fd6b3b24f46a3b08b1c46b2e657b7 = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_520111f3e27741969bd7eb4aaf03479a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_de0fd6b3b24f46a3b08b1c46b2e657b7.setIcon(icon_520111f3e27741969bd7eb4aaf03479a);
+            
+    
+            var popup_f1a6bed9b66345eca57a0f40631da1f1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cef31b9a45ee488aaaf417cf991fb6f2 = $(`<div id="html_cef31b9a45ee488aaaf417cf991fb6f2" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_f1a6bed9b66345eca57a0f40631da1f1.setContent(html_cef31b9a45ee488aaaf417cf991fb6f2);
+            
+
+            marker_de0fd6b3b24f46a3b08b1c46b2e657b7.bindPopup(popup_f1a6bed9b66345eca57a0f40631da1f1)
+            ;
+
+            
+        
+    
+        var marker_db488bb1b2504398a52bb99435496cd5 = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_850555bece424e5993023427789e15b7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_db488bb1b2504398a52bb99435496cd5.setIcon(icon_850555bece424e5993023427789e15b7);
+            
+    
+            var popup_98fd1988a288482586f543bb31e30140 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_38de5a092c414d6e8b227ce85988fc80 = $(`<div id="html_38de5a092c414d6e8b227ce85988fc80" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_98fd1988a288482586f543bb31e30140.setContent(html_38de5a092c414d6e8b227ce85988fc80);
+            
+
+            marker_db488bb1b2504398a52bb99435496cd5.bindPopup(popup_98fd1988a288482586f543bb31e30140)
+            ;
+
+            
+        
+    
+        var marker_e3bafd61d9044a1192a6f4f418827441 = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_d0550525394a4463bc49d0100158df61 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e3bafd61d9044a1192a6f4f418827441.setIcon(icon_d0550525394a4463bc49d0100158df61);
+            
+    
+            var popup_c51c1c9d6c59439c9afc09c84d586b87 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c0f1b8fa619a4db9b817790dc3ccd7e2 = $(`<div id="html_c0f1b8fa619a4db9b817790dc3ccd7e2" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_c51c1c9d6c59439c9afc09c84d586b87.setContent(html_c0f1b8fa619a4db9b817790dc3ccd7e2);
+            
+
+            marker_e3bafd61d9044a1192a6f4f418827441.bindPopup(popup_c51c1c9d6c59439c9afc09c84d586b87)
+            ;
+
+            
+        
+    
+        var marker_7fbcacc416f448d482cf18d05cade146 = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_cba6381c1bd44521a1aedc8dae89046c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7fbcacc416f448d482cf18d05cade146.setIcon(icon_cba6381c1bd44521a1aedc8dae89046c);
+            
+    
+            var popup_3583ba7ab7e94ebeae8c496a4495774c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_da9357babcd14e0d99e6ebdb242c4442 = $(`<div id="html_da9357babcd14e0d99e6ebdb242c4442" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_3583ba7ab7e94ebeae8c496a4495774c.setContent(html_da9357babcd14e0d99e6ebdb242c4442);
+            
+
+            marker_7fbcacc416f448d482cf18d05cade146.bindPopup(popup_3583ba7ab7e94ebeae8c496a4495774c)
+            ;
+
+            
+        
+    
+        var marker_543afa045be244458451fef9db36bd76 = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_aac3e87358904645950c9d10a4b6c774 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_543afa045be244458451fef9db36bd76.setIcon(icon_aac3e87358904645950c9d10a4b6c774);
+            
+    
+            var popup_10e48ee672364ef6b30b5b893cb117bb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7867b1fea1ce4e739ee44e6d75086680 = $(`<div id="html_7867b1fea1ce4e739ee44e6d75086680" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_10e48ee672364ef6b30b5b893cb117bb.setContent(html_7867b1fea1ce4e739ee44e6d75086680);
+            
+
+            marker_543afa045be244458451fef9db36bd76.bindPopup(popup_10e48ee672364ef6b30b5b893cb117bb)
+            ;
+
+            
+        
+    
+        var marker_d24dd45bee0d47e2b1fda8be20398883 = L.marker(
+            [52.3744779, 9.7385532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_d4804167848f42949e0cf2110d4cd09d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d24dd45bee0d47e2b1fda8be20398883.setIcon(icon_d4804167848f42949e0cf2110d4cd09d);
+            
+    
+            var popup_d258011ed09a4d3db8367674f519a507 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a1e385dc48e54ca58f4a0d5d98e7ae67 = $(`<div id="html_a1e385dc48e54ca58f4a0d5d98e7ae67" style="width: 100.0%; height: 100.0%;">Film: "0511 TV Lokal "(inf: -)</div>`)[0];
+                popup_d258011ed09a4d3db8367674f519a507.setContent(html_a1e385dc48e54ca58f4a0d5d98e7ae67);
+            
+
+            marker_d24dd45bee0d47e2b1fda8be20398883.bindPopup(popup_d258011ed09a4d3db8367674f519a507)
+            ;
+
+            
+        
+    
+        var marker_c7ed4a847e944773a7a8a4c943039c87 = L.marker(
+            [48.8737791, 2.29503722603767],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_1ba113d017f54137b8bef5bd14235789 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c7ed4a847e944773a7a8a4c943039c87.setIcon(icon_1ba113d017f54137b8bef5bd14235789);
+            
+    
+            var popup_0308431103de41e681e24bba1200f2e2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cad3cf34cb7d490ca68f495abacdf037 = $(`<div id="html_cad3cf34cb7d490ca68f495abacdf037" style="width: 100.0%; height: 100.0%;">Film: "1,000 Places to See Before You Die "(inf: France (#1.6))</div>`)[0];
+                popup_0308431103de41e681e24bba1200f2e2.setContent(html_cad3cf34cb7d490ca68f495abacdf037);
+            
+
+            marker_c7ed4a847e944773a7a8a4c943039c87.bindPopup(popup_0308431103de41e681e24bba1200f2e2)
+            ;
+
+            
+        
+    
+        var marker_d007d8ac9e324e9abe95cf086a941a70 = L.marker(
+            [48.8638519, 2.3464796],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_b49486a3c8c24bea887e854f26baf702 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d007d8ac9e324e9abe95cf086a941a70.setIcon(icon_b49486a3c8c24bea887e854f26baf702);
+            
+    
+            var popup_e06fb550d7ad4ed7acb86065a260050b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f4b6e20b237942fbaccb773621dae442 = $(`<div id="html_f4b6e20b237942fbaccb773621dae442" style="width: 100.0%; height: 100.0%;">Film: "1,000 Places to See Before You Die "(inf: France (#1.6))</div>`)[0];
+                popup_e06fb550d7ad4ed7acb86065a260050b.setContent(html_f4b6e20b237942fbaccb773621dae442);
+            
+
+            marker_d007d8ac9e324e9abe95cf086a941a70.bindPopup(popup_e06fb550d7ad4ed7acb86065a260050b)
+            ;
+
+            
+        
+    
+        var marker_4a0acabd710741dfb4745e7fa9ca66ea = L.marker(
+            [48.8513483, 2.2825972],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_fa98b0050d1944438245919710c95a4e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a0acabd710741dfb4745e7fa9ca66ea.setIcon(icon_fa98b0050d1944438245919710c95a4e);
+            
+    
+            var popup_4c66c07845e146a2b643dda3065dedba = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5f0237c07ebb41bc98b73fe52f3b81ea = $(`<div id="html_5f0237c07ebb41bc98b73fe52f3b81ea" style="width: 100.0%; height: 100.0%;">Film: "1,000 Places to See Before You Die "(inf: France (#1.6))</div>`)[0];
+                popup_4c66c07845e146a2b643dda3065dedba.setContent(html_5f0237c07ebb41bc98b73fe52f3b81ea);
+            
+
+            marker_4a0acabd710741dfb4745e7fa9ca66ea.bindPopup(popup_4c66c07845e146a2b643dda3065dedba)
+            ;
+
+            
+        
+    
+        var marker_20e4c0c667634ce187159054afd85010 = L.marker(
+            [48.88546185, 2.33915350138031],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_12ad7b76aa51482b97c81b746d66e95e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_20e4c0c667634ce187159054afd85010.setIcon(icon_12ad7b76aa51482b97c81b746d66e95e);
+            
+    
+            var popup_f003002752e14ba5b31ccccfceb4563f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5d89b77b39844056bf6c4444221234a2 = $(`<div id="html_5d89b77b39844056bf6c4444221234a2" style="width: 100.0%; height: 100.0%;">Film: "1,000 Places to See Before You Die "(inf: France (#1.6))</div>`)[0];
+                popup_f003002752e14ba5b31ccccfceb4563f.setContent(html_5d89b77b39844056bf6c4444221234a2);
+            
+
+            marker_20e4c0c667634ce187159054afd85010.bindPopup(popup_f003002752e14ba5b31ccccfceb4563f)
+            ;
+
+            
+        
+    
+        var marker_6d29a8e3420e4be39dd31bd07b7f8fb6 = L.marker(
+            [43.7311424, 7.4197576],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_b9dbb5c6d9974055abef192e38e4f39e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6d29a8e3420e4be39dd31bd07b7f8fb6.setIcon(icon_b9dbb5c6d9974055abef192e38e4f39e);
+            
+    
+            var popup_655512c955d9485ba6e8020679165f85 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9039d8e83aea496b93f4f0befac062fc = $(`<div id="html_9039d8e83aea496b93f4f0befac062fc" style="width: 100.0%; height: 100.0%;">Film: "1,000 Places to See Before You Die "(inf: France (#1.6))</div>`)[0];
+                popup_655512c955d9485ba6e8020679165f85.setContent(html_9039d8e83aea496b93f4f0befac062fc);
+            
+
+            marker_6d29a8e3420e4be39dd31bd07b7f8fb6.bindPopup(popup_655512c955d9485ba6e8020679165f85)
+            ;
+
+            
+        
+    
+        var marker_d8c3830164b34f82b711b1ad009f204c = L.marker(
+            [-10.3333333, -53.2],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_5c27af24e65e44e382940c2eae35de46 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d8c3830164b34f82b711b1ad009f204c.setIcon(icon_5c27af24e65e44e382940c2eae35de46);
+            
+    
+            var popup_5bb5c2dfc86943d9b0bbd56de261cb1a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8b0b7b359ad54bfbb195faa1cdf3b993 = $(`<div id="html_8b0b7b359ad54bfbb195faa1cdf3b993" style="width: 100.0%; height: 100.0%;">Film: "1,000 Places to See Before You Die "(inf: France (#1.6))</div>`)[0];
+                popup_5bb5c2dfc86943d9b0bbd56de261cb1a.setContent(html_8b0b7b359ad54bfbb195faa1cdf3b993);
+            
+
+            marker_d8c3830164b34f82b711b1ad009f204c.bindPopup(popup_5bb5c2dfc86943d9b0bbd56de261cb1a)
+            ;
+
+            
+        
+    
+        var marker_28384ab6aa234321810c9315699de906 = L.marker(
+            [13.5066394, 104.869423],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_ea48da366b054ab9b8f4ba652f4c0ab6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_28384ab6aa234321810c9315699de906.setIcon(icon_ea48da366b054ab9b8f4ba652f4c0ab6);
+            
+    
+            var popup_f7a3b88602aa4606be37c1328538e4d4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_652b0a20d8f5431d97758d46253ea9d7 = $(`<div id="html_652b0a20d8f5431d97758d46253ea9d7" style="width: 100.0%; height: 100.0%;">Film: "1,000 Places to See Before You Die "(inf: France (#1.6))</div>`)[0];
+                popup_f7a3b88602aa4606be37c1328538e4d4.setContent(html_652b0a20d8f5431d97758d46253ea9d7);
+            
+
+            marker_28384ab6aa234321810c9315699de906.bindPopup(popup_f7a3b88602aa4606be37c1328538e4d4)
+            ;
+
+            
+        
+    
+        var marker_7ac66bb9112f4210a29039a3811796e9 = L.marker(
+            [61.0666922, -107.9917071],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_f170ff6a484a43b391da10adbc090957 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7ac66bb9112f4210a29039a3811796e9.setIcon(icon_f170ff6a484a43b391da10adbc090957);
+            
+    
+            var popup_ba7f0d319a584cfaacb800a816360214 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bc7e52b6e0cb4d5dabe0b8dcdacb9c88 = $(`<div id="html_bc7e52b6e0cb4d5dabe0b8dcdacb9c88" style="width: 100.0%; height: 100.0%;">Film: "1,000 Places to See Before You Die "(inf: France (#1.6))</div>`)[0];
+                popup_ba7f0d319a584cfaacb800a816360214.setContent(html_bc7e52b6e0cb4d5dabe0b8dcdacb9c88);
+            
+
+            marker_7ac66bb9112f4210a29039a3811796e9.bindPopup(popup_ba7f0d319a584cfaacb800a816360214)
+            ;
+
+            
+        
+    
+        var marker_7f2d0aaf2c094787b16441e95c8ae8b6 = L.marker(
+            [19.1399952, -72.3570972],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_2f6ed65639b94040a99d14cbf15215b6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7f2d0aaf2c094787b16441e95c8ae8b6.setIcon(icon_2f6ed65639b94040a99d14cbf15215b6);
+            
+    
+            var popup_b1fa56bc90734c39a6154a39aac9e50e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_26e763627e964e75a0b443f44b044c9d = $(`<div id="html_26e763627e964e75a0b443f44b044c9d" style="width: 100.0%; height: 100.0%;">Film: "1,000 Places to See Before You Die "(inf: France (#1.6))</div>`)[0];
+                popup_b1fa56bc90734c39a6154a39aac9e50e.setContent(html_26e763627e964e75a0b443f44b044c9d);
+            
+
+            marker_7f2d0aaf2c094787b16441e95c8ae8b6.bindPopup(popup_b1fa56bc90734c39a6154a39aac9e50e)
+            ;
+
+            
+        
+    
+        var marker_62857a75b3c34b099c49bda6139a20e9 = L.marker(
+            [5.7499721, -9.3658524],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_7cb9654cc68b44acbe22c5611c5ffa9b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_62857a75b3c34b099c49bda6139a20e9.setIcon(icon_7cb9654cc68b44acbe22c5611c5ffa9b);
+            
+    
+            var popup_4e556b9f82fc418095b1c8126605f590 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_016542fe991248799044fd591d56f265 = $(`<div id="html_016542fe991248799044fd591d56f265" style="width: 100.0%; height: 100.0%;">Film: "1,000 Places to See Before You Die "(inf: France (#1.6))</div>`)[0];
+                popup_4e556b9f82fc418095b1c8126605f590.setContent(html_016542fe991248799044fd591d56f265);
+            
+
+            marker_62857a75b3c34b099c49bda6139a20e9.bindPopup(popup_4e556b9f82fc418095b1c8126605f590)
+            ;
+
+            
+        
+    
+        var marker_309f60cd837541beb4f398a2e812282f = L.marker(
+            [-6.8699697, -75.0458515],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_7f0c72b3d2614431921ba6ff129679ff = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_309f60cd837541beb4f398a2e812282f.setIcon(icon_7f0c72b3d2614431921ba6ff129679ff);
+            
+    
+            var popup_a52bb24400f7401ebe8e3d7bebcd17d7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_63cb27bfcc304e3abdd995856906a600 = $(`<div id="html_63cb27bfcc304e3abdd995856906a600" style="width: 100.0%; height: 100.0%;">Film: "4Real "(inf: -)</div>`)[0];
+                popup_a52bb24400f7401ebe8e3d7bebcd17d7.setContent(html_63cb27bfcc304e3abdd995856906a600);
+            
+
+            marker_309f60cd837541beb4f398a2e812282f.bindPopup(popup_a52bb24400f7401ebe8e3d7bebcd17d7)
+            ;
+
+            
+        
+    
+        var marker_8687443b8cac48b08f587ff6e01c584a = L.marker(
+            [-26.205, 28.049722],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_331c555f8b6f4ea8ae7836831006521b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8687443b8cac48b08f587ff6e01c584a.setIcon(icon_331c555f8b6f4ea8ae7836831006521b);
+            
+    
+            var popup_fd16c8cbe54a43f1ad59783c9efd3a8d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_16e9beed0b8b43d19a7d1b87d81bd523 = $(`<div id="html_16e9beed0b8b43d19a7d1b87d81bd523" style="width: 100.0%; height: 100.0%;">Film: "4Real "(inf: -)</div>`)[0];
+                popup_fd16c8cbe54a43f1ad59783c9efd3a8d.setContent(html_16e9beed0b8b43d19a7d1b87d81bd523);
+            
+
+            marker_8687443b8cac48b08f587ff6e01c584a.bindPopup(popup_fd16c8cbe54a43f1ad59783c9efd3a8d)
+            ;
+
+            
+        
+    
+        var marker_2af3aeb4b573481c8ec3707cd97d4906 = L.marker(
+            [42.2376602, -8.7247205],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_961e37263b3c427ea503abb76e1767e3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2af3aeb4b573481c8ec3707cd97d4906.setIcon(icon_961e37263b3c427ea503abb76e1767e3);
+            
+    
+            var popup_03be17fb66a44475b81e40019fc6d7c6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_58ae7a9e09464964a31420f21b3c330c = $(`<div id="html_58ae7a9e09464964a31420f21b3c330c" style="width: 100.0%; height: 100.0%;">Film: "4Real "(inf: -)</div>`)[0];
+                popup_03be17fb66a44475b81e40019fc6d7c6.setContent(html_58ae7a9e09464964a31420f21b3c330c);
+            
+
+            marker_2af3aeb4b573481c8ec3707cd97d4906.bindPopup(popup_03be17fb66a44475b81e40019fc6d7c6)
+            ;
+
+            
+        
+    
+        var marker_25a610fadab0444eb3568f6f34ace196 = L.marker(
+            [12.4902998, -69.9609842],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_6dc19d2fb4e94c918f5c28bc44904d4c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_25a610fadab0444eb3568f6f34ace196.setIcon(icon_6dc19d2fb4e94c918f5c28bc44904d4c);
+            
+    
+            var popup_faff878d93894f8c9610dc59dbb95f70 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5cecbc8a00ec4f68b48326f03e4f8b8c = $(`<div id="html_5cecbc8a00ec4f68b48326f03e4f8b8c" style="width: 100.0%; height: 100.0%;">Film: "4Real "(inf: -)</div>`)[0];
+                popup_faff878d93894f8c9610dc59dbb95f70.setContent(html_5cecbc8a00ec4f68b48326f03e4f8b8c);
+            
+
+            marker_25a610fadab0444eb3568f6f34ace196.bindPopup(popup_faff878d93894f8c9610dc59dbb95f70)
+            ;
+
+            
+        
+    
+        var marker_3b4f5fc64a7a416d9db70bafa262778a = L.marker(
+            [25.7742658, -80.1936589],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_04e48bb8326f405a9049752a36ed1a6c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3b4f5fc64a7a416d9db70bafa262778a.setIcon(icon_04e48bb8326f405a9049752a36ed1a6c);
+            
+    
+            var popup_f527e3621bdf4bbaab3d2b78a13c2a6b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_923ce0f5455f4525b1a04bcb8ae07a7a = $(`<div id="html_923ce0f5455f4525b1a04bcb8ae07a7a" style="width: 100.0%; height: 100.0%;">Film: "4Real "(inf: -)</div>`)[0];
+                popup_f527e3621bdf4bbaab3d2b78a13c2a6b.setContent(html_923ce0f5455f4525b1a04bcb8ae07a7a);
+            
+
+            marker_3b4f5fc64a7a416d9db70bafa262778a.bindPopup(popup_f527e3621bdf4bbaab3d2b78a13c2a6b)
+            ;
+
+            
+        
+    
+        var marker_2846306e6e8041b396e54975caedf46b = L.marker(
+            [34.093214, -118.3196124],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_4e72dc54cd31498da821382d891174be = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2846306e6e8041b396e54975caedf46b.setIcon(icon_4e72dc54cd31498da821382d891174be);
+            
+    
+            var popup_c6cf43344dac4c89b1f72d793f13f5d4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4291bd026e10429596914142396879d4 = $(`<div id="html_4291bd026e10429596914142396879d4" style="width: 100.0%; height: 100.0%;">Film: "4Real "(inf: -)</div>`)[0];
+                popup_c6cf43344dac4c89b1f72d793f13f5d4.setContent(html_4291bd026e10429596914142396879d4);
+            
+
+            marker_2846306e6e8041b396e54975caedf46b.bindPopup(popup_c6cf43344dac4c89b1f72d793f13f5d4)
+            ;
+
+            
+        
+    
+        var marker_316315360c7d475eaf0f0d55711c22f9 = L.marker(
+            [34.4221319, -119.7026673],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_04f34eee2dac42bcb49c0664a793fd1f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_316315360c7d475eaf0f0d55711c22f9.setIcon(icon_04f34eee2dac42bcb49c0664a793fd1f);
+            
+    
+            var popup_efe4bb6ce82d4d05ac6a56c488e6d5f5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_efa1b08b5111442db91e761488f5ff95 = $(`<div id="html_efa1b08b5111442db91e761488f5ff95" style="width: 100.0%; height: 100.0%;">Film: "90 Plein Street "(inf: -)</div>`)[0];
+                popup_efe4bb6ce82d4d05ac6a56c488e6d5f5.setContent(html_efa1b08b5111442db91e761488f5ff95);
+            
+
+            marker_316315360c7d475eaf0f0d55711c22f9.bindPopup(popup_efe4bb6ce82d4d05ac6a56c488e6d5f5)
+            ;
+
+            
+        
+    
+        var marker_78644d709c184eceb18e2c5b2f7e771c = L.marker(
+            [34.0696501, -118.3963062],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_fa276bdd24a94d6d92beb7c92b41738a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_78644d709c184eceb18e2c5b2f7e771c.setIcon(icon_fa276bdd24a94d6d92beb7c92b41738a);
+            
+    
+            var popup_8fd824db07ac4181a8e791759ec52873 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3fe7fbfa19464d65a042329b0b4204d4 = $(`<div id="html_3fe7fbfa19464d65a042329b0b4204d4" style="width: 100.0%; height: 100.0%;">Film: "90 Plein Street "(inf: -)</div>`)[0];
+                popup_8fd824db07ac4181a8e791759ec52873.setContent(html_3fe7fbfa19464d65a042329b0b4204d4);
+            
+
+            marker_78644d709c184eceb18e2c5b2f7e771c.bindPopup(popup_8fd824db07ac4181a8e791759ec52873)
+            ;
+
+            
+        
+    
+        var marker_b813c953545e4f20abdca3d719ab653a = L.marker(
+            [34.0521403, -118.4740699],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_d96cfb34c958451cb6a0c324d183d236 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b813c953545e4f20abdca3d719ab653a.setIcon(icon_d96cfb34c958451cb6a0c324d183d236);
+            
+    
+            var popup_0d9ffa353c344f3daa7e8fb67cb73e00 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_54c9eccbe8fb466aacb3cd45f194d2d1 = $(`<div id="html_54c9eccbe8fb466aacb3cd45f194d2d1" style="width: 100.0%; height: 100.0%;">Film: "Acomp��enos "(inf: -)</div>`)[0];
+                popup_0d9ffa353c344f3daa7e8fb67cb73e00.setContent(html_54c9eccbe8fb466aacb3cd45f194d2d1);
+            
+
+            marker_b813c953545e4f20abdca3d719ab653a.bindPopup(popup_0d9ffa353c344f3daa7e8fb67cb73e00)
+            ;
+
+            
+        
+    
+        var marker_aae697c6824a48d489ac421e823853cb = L.marker(
+            [34.0561207, -118.4306347],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_b08eaab8b11341e081cf8fa2fbf01c5e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aae697c6824a48d489ac421e823853cb.setIcon(icon_b08eaab8b11341e081cf8fa2fbf01c5e);
+            
+    
+            var popup_a1f0909c9c674da4a7574dcf71828a6e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c19ca6851a8943e0a05a594fe27367e8 = $(`<div id="html_c19ca6851a8943e0a05a594fe27367e8" style="width: 100.0%; height: 100.0%;">Film: "Acorralada "(inf: -)</div>`)[0];
+                popup_a1f0909c9c674da4a7574dcf71828a6e.setContent(html_c19ca6851a8943e0a05a594fe27367e8);
+            
+
+            marker_aae697c6824a48d489ac421e823853cb.bindPopup(popup_a1f0909c9c674da4a7574dcf71828a6e)
+            ;
+
+            
+        
+    
+        var marker_4797b00dea8841e4b4b99f96422a8bd9 = L.marker(
+            [34.093214, -118.3196124],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_860152bfbff64d2ca1c44caebe6b050b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4797b00dea8841e4b4b99f96422a8bd9.setIcon(icon_860152bfbff64d2ca1c44caebe6b050b);
+            
+    
+            var popup_317dfab34cf44cd5beeb6a819688fede = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_069187f168e6448f91f49a49e39d06e0 = $(`<div id="html_069187f168e6448f91f49a49e39d06e0" style="width: 100.0%; height: 100.0%;">Film: "Acorralada "(inf: -)</div>`)[0];
+                popup_317dfab34cf44cd5beeb6a819688fede.setContent(html_069187f168e6448f91f49a49e39d06e0);
+            
+
+            marker_4797b00dea8841e4b4b99f96422a8bd9.bindPopup(popup_317dfab34cf44cd5beeb6a819688fede)
+            ;
+
+            
+        
+    
+        var marker_e3444a438aea4c1b988ed53b4ad39cff = L.marker(
+            [56.412558, 8.669723],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_1f1176afaa39469a9ed7b5257821a8af = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e3444a438aea4c1b988ed53b4ad39cff.setIcon(icon_1f1176afaa39469a9ed7b5257821a8af);
+            
+    
+            var popup_a8d9603642ad4e28959b4628a56d0af2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0f6009991bf34f1b901474e191c5ebed = $(`<div id="html_0f6009991bf34f1b901474e191c5ebed" style="width: 100.0%; height: 100.0%;">Film: "ADHDtv: With Lew Marklin "(inf: Lewie Does Christina De Rosa (#3.1))</div>`)[0];
+                popup_a8d9603642ad4e28959b4628a56d0af2.setContent(html_0f6009991bf34f1b901474e191c5ebed);
+            
+
+            marker_e3444a438aea4c1b988ed53b4ad39cff.bindPopup(popup_a8d9603642ad4e28959b4628a56d0af2)
+            ;
+
+            
+        
+    
+        var marker_befcdad412754fc3ad37fa24cbb6e25e = L.marker(
+            [56.412558, 8.669723],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_f1b1122c55b447569b4cb01a466171f7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_befcdad412754fc3ad37fa24cbb6e25e.setIcon(icon_f1b1122c55b447569b4cb01a466171f7);
+            
+    
+            var popup_0dae025d87034602ab8fe028792ace47 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4df2d23e721a4cc981e6cc26c0453db6 = $(`<div id="html_4df2d23e721a4cc981e6cc26c0453db6" style="width: 100.0%; height: 100.0%;">Film: "ADHDtv: With Lew Marklin "(inf: Lewie Does Christina De Rosa (#3.1))</div>`)[0];
+                popup_0dae025d87034602ab8fe028792ace47.setContent(html_4df2d23e721a4cc981e6cc26c0453db6);
+            
+
+            marker_befcdad412754fc3ad37fa24cbb6e25e.bindPopup(popup_0dae025d87034602ab8fe028792ace47)
+            ;
+
+            
+        
+    
+        var marker_b4161a881d58492f8339b1275b96831b = L.marker(
+            [56.412558, 8.669723],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_353a42507c044c8b9e32080913bdfcbe = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b4161a881d58492f8339b1275b96831b.setIcon(icon_353a42507c044c8b9e32080913bdfcbe);
+            
+    
+            var popup_fe655e97dd02429f981cebd854a5621a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_57d8295c24ba449f851442d770f20c34 = $(`<div id="html_57d8295c24ba449f851442d770f20c34" style="width: 100.0%; height: 100.0%;">Film: "ADHDtv: With Lew Marklin "(inf: Lewie Does Georgia (#3.3))</div>`)[0];
+                popup_fe655e97dd02429f981cebd854a5621a.setContent(html_57d8295c24ba449f851442d770f20c34);
+            
+
+            marker_b4161a881d58492f8339b1275b96831b.bindPopup(popup_fe655e97dd02429f981cebd854a5621a)
+            ;
+
+            
+        
+    
+        var marker_493f8724d98a42eba1cd643b990f9b8b = L.marker(
+            [56.412558, 8.669723],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_38d8b001d27c491aa884d377b4824ef1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_493f8724d98a42eba1cd643b990f9b8b.setIcon(icon_38d8b001d27c491aa884d377b4824ef1);
+            
+    
+            var popup_fc33e833b2444499b0a44a886fde3626 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d6da304eaaeb47b28a83438e356f6def = $(`<div id="html_d6da304eaaeb47b28a83438e356f6def" style="width: 100.0%; height: 100.0%;">Film: "ADHDtv: With Lew Marklin "(inf: Lewie Does Georgia (#3.3))</div>`)[0];
+                popup_fc33e833b2444499b0a44a886fde3626.setContent(html_d6da304eaaeb47b28a83438e356f6def);
+            
+
+            marker_493f8724d98a42eba1cd643b990f9b8b.bindPopup(popup_fc33e833b2444499b0a44a886fde3626)
+            ;
+
+            
+        
+    
+        var marker_996e078251eb424fa7143feaf6f69592 = L.marker(
+            [55.6561353, 12.6318585],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_8593ae915dc6461981a2897cefdbc71d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_996e078251eb424fa7143feaf6f69592.setIcon(icon_8593ae915dc6461981a2897cefdbc71d);
+            
+    
+            var popup_cf8583136322424c8d061ce1713ffc51 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7ba6161a74264872b11d8f5fb75d5d4f = $(`<div id="html_7ba6161a74264872b11d8f5fb75d5d4f" style="width: 100.0%; height: 100.0%;">Film: "ADHDtv: With Lew Marklin "(inf: Lewie Does Georgia (#3.3))</div>`)[0];
+                popup_cf8583136322424c8d061ce1713ffc51.setContent(html_7ba6161a74264872b11d8f5fb75d5d4f);
+            
+
+            marker_996e078251eb424fa7143feaf6f69592.bindPopup(popup_cf8583136322424c8d061ce1713ffc51)
+            ;
+
+            
+        
+    
+        var marker_46db0d42910240d0b15c1a509de451b3 = L.marker(
+            [55.67332115, 12.5690128177633],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_1b8ad792c7e74b4192463107c6c24d6e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_46db0d42910240d0b15c1a509de451b3.setIcon(icon_1b8ad792c7e74b4192463107c6c24d6e);
+            
+    
+            var popup_b1ec788be7b64916ae94b531609bb8d0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fe9837f8bd75460fb2cb419d6f6c680c = $(`<div id="html_fe9837f8bd75460fb2cb419d6f6c680c" style="width: 100.0%; height: 100.0%;">Film: "ADHDtv: With Lew Marklin "(inf: Lewie Does Georgia (#3.3))</div>`)[0];
+                popup_b1ec788be7b64916ae94b531609bb8d0.setContent(html_fe9837f8bd75460fb2cb419d6f6c680c);
+            
+
+            marker_46db0d42910240d0b15c1a509de451b3.bindPopup(popup_b1ec788be7b64916ae94b531609bb8d0)
+            ;
+
+            
+        
+    
+        var marker_f3e42780ad8841e1840841b174566f9b = L.marker(
+            [37.1593553, 24.4736540225801],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_4330b126e0e9433d8da07fa7a49fda7a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f3e42780ad8841e1840841b174566f9b.setIcon(icon_4330b126e0e9433d8da07fa7a49fda7a);
+            
+    
+            var popup_e6d3524083504ba296c213c5c2b1b2b4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2f8e4314bf1644a3baccc1e23480197c = $(`<div id="html_2f8e4314bf1644a3baccc1e23480197c" style="width: 100.0%; height: 100.0%;">Film: "ADHDtv: With Lew Marklin "(inf: Lewie Does Helter Skelter (#2.19))</div>`)[0];
+                popup_e6d3524083504ba296c213c5c2b1b2b4.setContent(html_2f8e4314bf1644a3baccc1e23480197c);
+            
+
+            marker_f3e42780ad8841e1840841b174566f9b.bindPopup(popup_e6d3524083504ba296c213c5c2b1b2b4)
+            ;
+
+            
+        
+    
+        var marker_9145923701d2443c8fd47c084027031a = L.marker(
+            [37.9841493, 23.7279843],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_e1aeaf9608d142fea322299641aca56a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9145923701d2443c8fd47c084027031a.setIcon(icon_e1aeaf9608d142fea322299641aca56a);
+            
+    
+            var popup_31f7a2419ea4455ba96bd81595e469c3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e750310892994401aab855ec782cb464 = $(`<div id="html_e750310892994401aab855ec782cb464" style="width: 100.0%; height: 100.0%;">Film: "Aftenshowet "(inf: -)</div>`)[0];
+                popup_31f7a2419ea4455ba96bd81595e469c3.setContent(html_e750310892994401aab855ec782cb464);
+            
+
+            marker_9145923701d2443c8fd47c084027031a.bindPopup(popup_31f7a2419ea4455ba96bd81595e469c3)
+            ;
+
+            
+        
+    
+        var marker_e530b02551b24620b72b53b54e8c518c = L.marker(
+            [37.9841493, 23.7279843],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_01b8031f47a847ccb50886c6a92ace0b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e530b02551b24620b72b53b54e8c518c.setIcon(icon_01b8031f47a847ccb50886c6a92ace0b);
+            
+    
+            var popup_8828f667111040c78bf6b8f6fec12944 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_90436121079e4281a1ba0c8d58a608ca = $(`<div id="html_90436121079e4281a1ba0c8d58a608ca" style="width: 100.0%; height: 100.0%;">Film: "Aftenshowet "(inf: -)</div>`)[0];
+                popup_8828f667111040c78bf6b8f6fec12944.setContent(html_90436121079e4281a1ba0c8d58a608ca);
+            
+
+            marker_e530b02551b24620b72b53b54e8c518c.bindPopup(popup_8828f667111040c78bf6b8f6fec12944)
+            ;
+
+            
+        
+    
+        var marker_f0a9259e9c2c4314a902927713919400 = L.marker(
+            [37.9841493, 23.7279843],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_95d9e33d87734c7a9e190b3d8087f6a4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f0a9259e9c2c4314a902927713919400.setIcon(icon_95d9e33d87734c7a9e190b3d8087f6a4);
+            
+    
+            var popup_e56e703500bb47ebb7034ebbec92cbdb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_20e8d06a647946b6a5fb3df2347c756d = $(`<div id="html_20e8d06a647946b6a5fb3df2347c756d" style="width: 100.0%; height: 100.0%;">Film: "Aftenshowet "(inf: -)</div>`)[0];
+                popup_e56e703500bb47ebb7034ebbec92cbdb.setContent(html_20e8d06a647946b6a5fb3df2347c756d);
+            
+
+            marker_f0a9259e9c2c4314a902927713919400.bindPopup(popup_e56e703500bb47ebb7034ebbec92cbdb)
+            ;
+
+            
+        
+    
+        var marker_580489892315464ba51b05a6f71b65ed = L.marker(
+            [37.9841493, 23.7279843],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_b8f102b2db20439abba939756abad126 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_580489892315464ba51b05a6f71b65ed.setIcon(icon_b8f102b2db20439abba939756abad126);
+            
+    
+            var popup_2315410de7164a1b8be157d8873aaa88 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d3e7af890a5845c088fdda9036d737ce = $(`<div id="html_d3e7af890a5845c088fdda9036d737ce" style="width: 100.0%; height: 100.0%;">Film: "Aftenshowet "(inf: -)</div>`)[0];
+                popup_2315410de7164a1b8be157d8873aaa88.setContent(html_d3e7af890a5845c088fdda9036d737ce);
+            
+
+            marker_580489892315464ba51b05a6f71b65ed.bindPopup(popup_2315410de7164a1b8be157d8873aaa88)
+            ;
+
+            
+        
+    
+        var marker_02f2b4cbbbd543d8bb493e2940ec3a79 = L.marker(
+            [37.9841493, 23.7279843],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_e26ebb56f4e443b89c95690267ef9d0f);
+        
+    
+
+                var icon_7d2e6fc8dd00494e83830b25bcf8592e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_02f2b4cbbbd543d8bb493e2940ec3a79.setIcon(icon_7d2e6fc8dd00494e83830b25bcf8592e);
+            
+    
+            var popup_90a0ae660e0d4e36a793f6c8b09ec06e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6268cc0c813b4efc8862b5c259c9c6d4 = $(`<div id="html_6268cc0c813b4efc8862b5c259c9c6d4" style="width: 100.0%; height: 100.0%;">Film: "Aftenshowet "(inf: -)</div>`)[0];
+                popup_90a0ae660e0d4e36a793f6c8b09ec06e.setContent(html_6268cc0c813b4efc8862b5c259c9c6d4);
+            
+
+            marker_02f2b4cbbbd543d8bb493e2940ec3a79.bindPopup(popup_90a0ae660e0d4e36a793f6c8b09ec06e)
+            ;
+
+            
+        
+    
+            var feature_group_ff623069e4454b998108c008b715263a = L.featureGroup(
+                ).addTo(map_05acd470703c4efbae03d38c985b4af6);
+        
+    
+            var circle_marker_ebaae40ecf2a421caac7652309d26430 = L.circleMarker(
+                [46.603354, 1.8883335],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_ff623069e4454b998108c008b715263a);
+            
+    
+            var popup_730ebc092a3e4aff82c79e681afe94f0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d891da1a101b4a38bce7dcd9f3cf2d0f = $(`<div id="html_d891da1a101b4a38bce7dcd9f3cf2d0f" style="width: 100.0%; height: 100.0%;">France  - 9 films</div>`)[0];
+                popup_730ebc092a3e4aff82c79e681afe94f0.setContent(html_d891da1a101b4a38bce7dcd9f3cf2d0f);
+            
+
+            circle_marker_ebaae40ecf2a421caac7652309d26430.bindPopup(popup_730ebc092a3e4aff82c79e681afe94f0)
+            ;
+
+            
+        
+    
+            var circle_marker_ce7ae65cd4cb4267ba7df54ea8c61bd9 = L.circleMarker(
+                [38.9953683, 21.9877132],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_ff623069e4454b998108c008b715263a);
+            
+    
+            var popup_041a91413fb74af5af6f3eab25e4241d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e9b5853887124c32aa1409a7d4b610c5 = $(`<div id="html_e9b5853887124c32aa1409a7d4b610c5" style="width: 100.0%; height: 100.0%;">Greece  - 6 films</div>`)[0];
+                popup_041a91413fb74af5af6f3eab25e4241d.setContent(html_e9b5853887124c32aa1409a7d4b610c5);
+            
+
+            circle_marker_ce7ae65cd4cb4267ba7df54ea8c61bd9.bindPopup(popup_041a91413fb74af5af6f3eab25e4241d)
+            ;
+
+            
+        
+    
+            var circle_marker_194b3848f676462488932cd92db45663 = L.circleMarker(
+                [55.670249, 10.3333283],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_ff623069e4454b998108c008b715263a);
+            
+    
+            var popup_cbbc639ea9c0418c96fd69e51e1399f6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2d442ce6bc444a17844365b429207a94 = $(`<div id="html_2d442ce6bc444a17844365b429207a94" style="width: 100.0%; height: 100.0%;">Denmark  - 7 films</div>`)[0];
+                popup_cbbc639ea9c0418c96fd69e51e1399f6.setContent(html_2d442ce6bc444a17844365b429207a94);
+            
+
+            circle_marker_194b3848f676462488932cd92db45663.bindPopup(popup_cbbc639ea9c0418c96fd69e51e1399f6)
+            ;
+
+            
+        
+    
+            var layer_control_43115ac3d8e14294956ea5b6749ee176 = {
+                base_layers : { "stamentoner" : tile_layer_3c30a33d4bd240c18d182317826476c6, },
+                overlays : { "2007 films" : feature_group_e26ebb56f4e443b89c95690267ef9d0f,"Rating by countries" : feature_group_ff623069e4454b998108c008b715263a, }
+                };
+            L.control.layers(
+                layer_control_43115ac3d8e14294956ea5b6749ee176.base_layers,
+                layer_control_43115ac3d8e14294956ea5b6749ee176.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_05acd470703c4efbae03d38c985b4af6);
+            
+        
+</script>
